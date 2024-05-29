@@ -16,7 +16,7 @@ This repository contains an efficient implementation of a Bloom filter in Java, 
 
 ## Usage
 - **Insertion:** Add elements using the `add` method.
-- **Querying:** Check for presence using the `mightContain` method.
+- **Querying:** Check for presence using the `exists` method.
 
 ## Getting Started
 1. Clone the repository:
