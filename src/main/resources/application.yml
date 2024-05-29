@@ -1,0 +1,10 @@
+spring:
+  application.name: bloomfilter
+hash:
+  hash-size: 3
+
+logging:
+  level:
+    root: INFO
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
