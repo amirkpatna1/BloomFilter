@@ -9,7 +9,7 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 @Service
-public class MD5HashService implements HashService, AdvancedHashService {
+public class MD5HashService implements AdvancedHashService {
     @Override
     public int getHash(String key) {
         try {

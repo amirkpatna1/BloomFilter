@@ -3,14 +3,11 @@ package com.bloomfilterdemo.bloomfilter;
 import com.bloomfilterdemo.bloomfilter.service.AdvancedHashService;
 import com.bloomfilterdemo.bloomfilter.service.FilterService;
 import com.bloomfilterdemo.bloomfilter.service.HashService;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import org.mockito.Mock;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.util.ReflectionTestUtils;
 
 import java.util.List;
 import java.util.Random;

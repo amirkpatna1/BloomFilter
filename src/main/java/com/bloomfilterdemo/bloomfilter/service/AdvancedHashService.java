@@ -1,4 +1,4 @@
 package com.bloomfilterdemo.bloomfilter.service;
 
-public interface AdvancedHashService {
+public interface AdvancedHashService extends HashService {
 }

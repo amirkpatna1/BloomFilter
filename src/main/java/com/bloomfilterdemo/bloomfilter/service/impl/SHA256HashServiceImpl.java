@@ -9,7 +9,7 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 @Service
-public class SHA256HashServiceImpl implements HashService, AdvancedHashService {
+public class SHA256HashServiceImpl implements AdvancedHashService {
     @Override
     public int getHash(String key) {
         try {
